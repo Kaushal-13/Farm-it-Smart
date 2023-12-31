@@ -9,6 +9,6 @@ folium
 streamlit_folium
 sklearn.ensemble
 sklearn.model_selection
-sklearn
+scikit-learn
 warnings
 sklearn.metrics
