@@ -2,6 +2,7 @@ import streamlit as st
 from streamlit_folium import folium_static, st_folium
 import folium
 import pickle
+import numpy as np
 from req import getCountry, getWeatherDetails
 from GetSoilData import getData
 
@@ -72,3 +73,9 @@ if st.button("Confirm Location"):
 
 if (final_data.keys() is not None):
     st.write(final_data)
+    values = [final_data['N'], final_data['P'], final_data['K'],
+              final_data['temp'], final_data['humid'], final_data['pH'], final_data['rainfall']]
+    arr = np.array(values)
+    arr = arr.reshape(1, -1)
+    prediction = loaded_model.predict(arr)
+    st.write(prediction)
