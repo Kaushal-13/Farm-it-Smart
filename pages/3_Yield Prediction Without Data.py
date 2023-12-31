@@ -63,7 +63,6 @@ if st.button("Confirm Location"):
 
     start = month_dict[start_month]
     end = month_dict[end_month]
-    st.write(data)
 
     for key in data.keys():
         final_data[key] = calculate_average(data[key], start=start, end=end)
