@@ -71,7 +71,7 @@ if st.button("Confirm Location"):
     print(a)
     final_data.update(a)
 
-if (final_data.keys() is not None):
+if ("N" in final_data.keys()):
     st.write(final_data)
     values = [float(final_data['N']), float(final_data['P']), float(final_data['K']),
               final_data['temp'], final_data['humid'], final_data['pH'], final_data['rainfall']]
