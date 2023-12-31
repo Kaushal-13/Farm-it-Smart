@@ -11,8 +11,3 @@ streamlit_folium==0.18.0
 torch==2.1.2
 torchsummary==1.5.1
 torchvision==0.16.2
-torch-geometric==2.1.0
--f https://data.pyg.org/whl/torch-1.12.1+cpu.html
-torch-scatter==2.0.9
--f https://data.pyg.org/whl/torch-1.12.1+cpu.html
-torch-sparse==0.6.16
