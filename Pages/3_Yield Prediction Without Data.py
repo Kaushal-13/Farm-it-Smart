@@ -67,6 +67,7 @@ if st.button("Confirm Location"):
         final_data[key] = calculate_average(data[key], start=start, end=end)
     final_data['rainfall'] = sum(data['rainfall'][start:end+1])
     a = getData(country=country)
+    print(a)
     final_data.update(a)
 
 if (final_data.keys() is not None):

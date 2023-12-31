@@ -21,6 +21,3 @@ def getData(country):
     a['P'] = col_mean['P_C']
     a['pH'] = col_mean['pH_C']
     return a
-
-
-print(getData('USA'))

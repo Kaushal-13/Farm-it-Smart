@@ -71,7 +71,9 @@ def getCountry(lat, long):
     }
 
     response = requests.get(url, params=params)
+    print(response)
     data = response.json()
+
     data = data['features'][0]['properties']['country']
     return data
 
