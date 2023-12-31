@@ -9,4 +9,5 @@ streamlit_folium==0.18.0
 torch==1.10.0 
 torch --extra-index-url https://download.pytorch.org/whl/cpu
 torchvision --extra-index-url https://download.pytorch.org/whl/cpu
+torchsummary
 
