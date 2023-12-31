@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 folium==0.15.1
 matplotlib==3.6.2
 numpy==1.23.5
@@ -12,19 +11,4 @@ streamlit_folium==0.18.0
 torch==2.1.2
 torchsummary==1.5.1
 torchvision==0.16.2
-=======
-torchvision
-torch ==1.10.0
-torch.nn
-torchvision.transforms
-torchvision.datasets
-torchsummary
-PIL
-folium
-streamlit_folium
-sklearn.ensemble
-sklearn.model_selection
-scikit-learn
-warnings
-sklearn.metrics
->>>>>>> 47264bb50d62a7cb7e783e17d5884d482a23a71e
+
