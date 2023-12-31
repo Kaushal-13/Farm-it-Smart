@@ -6,7 +6,6 @@ scikit_learn==1.2.0
 streamlit
 streamlit_folium==0.18.0
 torch==1.10.0 
-torchvision==0.9.1+cpu -f https://download.pytorch.org/whl/torch_stable.html 
 torch --extra-index-url https://download.pytorch.org/whl/cpu
 torchvision --extra-index-url https://download.pytorch.org/whl/cpu
 
