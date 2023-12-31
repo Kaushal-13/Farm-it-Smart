@@ -1,7 +1,4 @@
 import requests
-from datetime import datetime, timedelta
-
-import json
 
 
 def calculate_relative_humidity(temp_celsius, dew_point_celsius):

@@ -6,9 +6,8 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.metrics import classification_report
-from sklearn import metrics
+from sklearn import metrics, tree
 import pickle
-from sklearn import tree
 import warnings
 warnings.filterwarnings('ignore')
 
