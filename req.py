@@ -23,7 +23,7 @@ def calculate_relative_humidity(temp_celsius, dew_point_celsius):
 
 def getWeatherDetails(lat, lon):
     base_url = 'https://api.weatherbit.io/v2.0/normals?'
-    api_key = '477d0500ff1c408a8c8fbab009178291'
+    api_key = 'dd712823a7964759918828c6d08806cb'
     params = {
         'lat': lat,
         'lon': lon,

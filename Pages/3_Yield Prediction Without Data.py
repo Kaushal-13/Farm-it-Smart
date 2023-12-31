@@ -74,9 +74,9 @@ if st.button("Confirm Location"):
 
 if (final_data.keys() is not None):
     st.write(final_data)
-    # values = [float(final_data['N']), float(final_data['P']), float(final_data['K']),
-    #           final_data['temp'], final_data['humid'], final_data['pH'], final_data['rainfall']]
-    # arr = np.array(values)
-    # arr = arr.reshape(1, -1)
-    # prediction = loaded_model.predict(arr)
-    # st.write(prediction)
+    values = [float(final_data['N']), float(final_data['P']), float(final_data['K']),
+              final_data['temp'], final_data['humid'], final_data['pH'], final_data['rainfall']]
+    arr = np.array(values)
+    arr = arr.reshape(1, -1)
+    prediction = loaded_model.predict(arr)
+    st.write(prediction)
