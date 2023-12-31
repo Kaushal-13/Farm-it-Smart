@@ -5,7 +5,11 @@ Pillow==10.1.0
 scikit_learn==1.2.0
 streamlit==0.63.0
 streamlit_folium==0.18.0
-torch==1.13.0 -f https://data.pyg.org/whl/torch-1.13.0+cpu.html
-torch-scatter
-torchsummary==1.5.1
-torchvision==0.16.2
+#-f https://download.pytorch.org/whl/torch_stable.html
+#torch==1.8.1+cpu
+#torchvision==0.9.1+cpu
+-find-links https://download.pytorch.org/whl/torch_stable.html 
+#torch==1.7.1+cpu
+torch --extra-index-url https://download.pytorch.org/whl/cpu
+torchvision --extra-index-url https://download.pytorch.org/whl/cpu
+
